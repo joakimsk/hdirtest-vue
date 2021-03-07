@@ -2,17 +2,17 @@
 
 <template>
   <div id="app">
-    <Health />
+    <CovidTracker />
   </div>
 </template>
 
 <script>
-import Health from './components/Health.vue'
+import CovidTracker from './components/CovidTracker.vue'
 
 export default {
   name: 'app',
   components: {
-    Health
+    CovidTracker
   }
 }
 </script>
